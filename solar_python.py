@@ -28,6 +28,7 @@ for i in range(1,13):
             beautifulSoupText = BeautifulSoup(contents, 'lxml')
             h=beautifulSoupText.text.split()
             max=float(h[h.index('maximale:')+1])
+            if (max<0): max=0
             max_rounded=int(10*np.ceil(max/10))
             table_class=['0','10','5']
             for j in np.arange(10,max_rounded,10):
