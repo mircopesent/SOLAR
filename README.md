@@ -1,2 +1,2 @@
 # SOLAR
-Solar Energy Conversion - Group 3
+Solar Energy Conversion - Group 2
